@@ -6,5 +6,10 @@
 </head>
 <body>
 
+<h1>Найдено со скилом {{ skill }}: {{ candidates_count }}</h1>
+{% for candidate in candidates %}
+    <p><a href='/candidate/{{ candidate.pk }}'>{{ candidate.name }}</a></p>
+{% endfor %}
+
 </body>
 </html>

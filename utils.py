@@ -27,10 +27,11 @@ def get_candidates_by_name(name):
     """
     Возвращает кандидатов по имени
     """
-    candidates = load_candidates_from_json()
-    for candidate in candidates:
-        if candidate['name'] == name:
-            return candidate
+    result = []
+    for candidate in load_candidates_from_json():
+        if name in candidate['name']:
+            result.append(candidate)
+    return result
 
 
 def get_candidates_by_skill(skill):
@@ -38,8 +39,7 @@ def get_candidates_by_skill(skill):
     Возвращает кандидатов по навыку
     """
     result = []
-    candidates = load_candidates_from_json()
-    for candidate in candidates:
+    for candidate in load_candidates_from_json():
         if skill in candidate['skills'].lower().split(', '):
             result.append(candidate)
     return result

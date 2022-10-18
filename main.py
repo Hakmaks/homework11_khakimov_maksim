@@ -20,12 +20,23 @@ def get_candidate(pk):
 
 @app.route('/candidate/<skill>')
 def get_candidates_by_skill(skill):
-    pass
+    candidates = utils.get_candidates_by_skill(skill)
+    candidates_count = len(candidates)
+    return render_template('skills.html'
+                           , candidates=candidates
+                           , candidates_count=candidates_count
+                           , skill=skill
+                           )
 
 
 @app.route('/search/<candidate_name>')
-def get_candidates_by_name(name):
-    pass
+def get_candidates_by_name(candidate_name):
+    candidates = utils.get_candidates_by_name(candidate_name)
+    candidates_count = len(candidates)
+    return render_template('search.html'
+                           , candidates=candidates
+                           , candidates_count=candidates_count
+                           )
 
 
 app.run(debug=True)
