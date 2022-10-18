@@ -6,12 +6,11 @@ def load_candidates_from_json():
     Возвращает список всех кандидатов
     """
     with open("candidates.json", "r", encoding="utf-8") as file:
-        candidates = json.load(file)
-        return candidates
+        return json.load(file)
 
 
 def get_candidates_all():
-    pass
+    return load_candidates_from_json()
 
 
 def get_candidate(pk):

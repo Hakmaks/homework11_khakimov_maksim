@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    candidates = utils.load_candidates_from_json()
+    candidates = utils.get_candidates_all()
     return candidates
 
 
