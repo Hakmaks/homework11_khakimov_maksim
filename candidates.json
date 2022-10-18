@@ -3,7 +3,7 @@
   {
     "pk": 1,
     "name": "Adela Hendricks",
-    "picture": "https://picsum.photos/200",
+    "picture": "https://htstatic.imgsmail.ru/pic_image/f6b4cd4441e1bd20e9b8911da89f57a2/840/630/1238882/",
     "position": "Go разработчик",
     "gender": "female",
     "age": 40,
@@ -12,7 +12,7 @@
   {
     "pk": 2,
     "name": "Sheri Torres",
-    "picture": "https://picsum.photos/200",
+    "picture": "https://htstatic.imgsmail.ru/pic_image/fa456317efc3741f743a553cf0be04c3/840/630/1238880/",
     "position": "Delphi developer",
     "gender": "female",
     "age": 26,
@@ -21,7 +21,7 @@
   {
     "pk": 3,
     "name": "Burt Stein",
-    "picture": "https://picsum.photos/200",
+    "picture": "https://rhinodesign.ru/upload/iblock/c13/c135509e2214a37e26d027898e880cc2.jpg",
     "position": "Team lead",
     "gender": "male",
     "age": 33,
@@ -30,7 +30,7 @@
   {
     "pk": 4,
     "name": "Bauer Adkins",
-    "picture": "https://picsum.photos/200",
+    "picture": "https://static.tildacdn.com/tild3431-6164-4161-a663-356635343461/2018-07-05_12179-Edi.jpg",
     "position": "CTO",
     "gender": "male",
     "age": 37,
@@ -39,7 +39,7 @@
   {
     "pk": 5,
     "name": "Day Holloway",
-    "picture": "https://picsum.photos/200",
+    "picture": "https://thumb.tildacdn.com/tild3863-3966-4764-a161-376532313237/-/format/webp/2017-07-05_27052-Edi.jpg",
     "position": "HR manager",
     "gender": "male",
     "age": 35,
@@ -48,7 +48,7 @@
   {
     "pk": 6,
     "name": "Austin Cochran",
-    "picture": "https://picsum.photos/200",
+    "picture": "https://thumb.tildacdn.com/tild6566-6335-4132-b339-363934633736/-/resize/613x/-/format/webp/2017-04-0810071-Edit.jpg",
     "position": "python-develop",
     "gender": "male",
     "age": 26,
@@ -57,7 +57,7 @@
   {
     "pk": 7,
     "name": "Sheree Love",
-    "picture": "https://picsum.photos/200",
+    "picture": "https://htstatic.imgsmail.ru/pic_image/31247a10b383a196991c32556f23e641/840/630/1238878/",
     "position": "Django developer",
     "gender": "female",
     "age": 33,

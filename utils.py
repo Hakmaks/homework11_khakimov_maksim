@@ -13,14 +13,14 @@ def get_candidates_all():
     return load_candidates_from_json()
 
 
-def get_candidate(pk):
+def get_candidate_by_pk(pk):
     """
     Возвращает одного кандидата по его id
     """
-    candidates = load_candidates_from_json()
-    for candidate in candidates:
+    for candidate in load_candidates_from_json():
         if candidate['pk'] == pk:
             return candidate
+    return None
 
 
 def get_candidates_by_name(name):
