@@ -1,5 +1,5 @@
 import utils
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     candidates = utils.get_candidates_all()
-    return candidates
+    render_template('list.html', candidates=candidates)
 
 
 @app.route('/candidate/<int:pk>')
